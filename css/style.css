@@ -55,6 +55,25 @@
 ====================================== */
 
 
+
+
+
+
+.row {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+}
+
+.owl-carousel {
+    /* You can add specific styles for the carousel here */
+}
+
+/* Add additional styles for other elements as needed */
+
+
+/* Add additional styles for other elements as needed */
+
+
 p.text-dark.header {
     height: 30px !important;
 }
@@ -121,7 +140,9 @@ section#price {
     vertical-align: top;
 }
 
-
+.owl-carousel.owl-drag .owl-item {
+    width:630px;
+}
 
 .company-about.fadeIn {
     height: 80px;
